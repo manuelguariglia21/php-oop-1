@@ -27,6 +27,12 @@
 
     <p>
       <?php
+        echo $film->plot;
+      ?>
+    </p>
+
+    <p>
+      <?php
         $film->setGenre('science fiction');
         echo $film->genre;
       ?>
